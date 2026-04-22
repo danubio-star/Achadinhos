@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at top, #382dca 0%, #000000 100%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.top-banner {
+    background-color: #c00;
+    font-size: 11px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+header h1 span {
+    color: #4ed9ff;
+}
+
+header p {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.logo-area {
+    margin-bottom: 30px;
+}
+
+.main-logo {
+    width: 80%;
+    max-width: 280px;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
+}
+
+.buttons-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn-whatsapp {
+    background-color: #00e676;
+    color: #000;
+}
+
+.btn-telegram {
+    background-color: #0088cc;
+}
+
+.main-text {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.sub-text {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.social-proof {
+    font-weight: bold;
+    color: #f1c40f;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.badges span {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer {
+    font-size: 11px;
+    color: #666;
+}
